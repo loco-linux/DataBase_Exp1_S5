@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="235F1412-DE21-9F92-2AAF-9EF428C95ABA" name="CONTACTO_CLIENTE">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>2BDA978B-AB72-5D8E-7CB0-7CA9F042746F</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTACTO" id="5D0A7FE7-7BE6-6547-829D-F19EDCB6C311">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>E362076D-3DEA-5793-391F-78C8D513EA13</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CELULAR" id="B3298D9E-9D51-B50F-4F07-A17246A888F9">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>62ED0958-17CF-4604-AF74-541E1A267CA4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="2C6E2E83-0D1B-51DB-9BDB-87BA6D2759F0">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>5630692F-F871-E0E1-9D1B-B406F7220A40</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_RUT_CLIENTE" id="CDFDA689-A5DC-2C89-32BA-ADC8A122D212">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>0FA57384-E786-FA98-013D-02969C4F4E39</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D91FAC71-852D-2B2F-A0F9-43D6BD3E3B1D" referredColumn="4402157B-B959-8E72-2C68-609CB5F83E2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F6E6875-CBAC-C106-9A33-396CC9323DA8" name="CONTACTO_CLIENTE_PK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>995E2BCA-DBFD-9174-F0BD-06BD6FBBF8FD</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D0A7FE7-7BE6-6547-829D-F19EDCB6C311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E6E2523-89D1-E0C3-32AF-5E71F3EE413D" name="CONTACTO_CLIENTE_CLIENTE_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>478F9EA1-ED74-4649-9AA5-CB9ED0F4AC06</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDFDA689-A5DC-2C89-32BA-ADC8A122D212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

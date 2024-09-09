@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F9EE2946-158A-486B-64C4-00798738649C">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:44:33 UTC</createdTime>
+<ownerDesignName>SEMANA4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

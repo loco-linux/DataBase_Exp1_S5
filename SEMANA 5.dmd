@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SEMANA 5" id="17567AC2-527B-463E-79A8-44615C81043C" version="3.5">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:44:33 UTC</createdTime>
+<ownerDesignName>SEMANA4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>17567AC2-527B-463E-79A8-44615C81043C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="93EC778C-E998-C4BC-C52F-4BD0324BA31C">
+<designStoragePath>C:\Users\jbarr\Documents\Desarrollo de Aplicaciones\3 Bimestre\BBDD\Semana 4\SEMANA4</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

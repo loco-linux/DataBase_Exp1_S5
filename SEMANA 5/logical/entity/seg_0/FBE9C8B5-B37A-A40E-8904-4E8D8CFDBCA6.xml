@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBE9C8B5-B37A-A40E-8904-4E8D8CFDBCA6" name="ESTADO_VEHICULO">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:14:07 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTADO_VEHICULO" id="67FB6EA6-5B5F-A1AA-E517-5EE51FE8B72E">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:14:20 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_ESTADO" id="A7AF198B-F686-C61C-4CD9-2A10BFB8A320">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:14:32 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="B485781E-DD2C-960D-2EE4-AB48B8A296E4">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:14:47 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SEGUIMIENTO" id="57417970-19EE-E204-D512-A523F0D43CC2">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:24:08 UTC</createdTime>
+<generatorID>9B4EFD54-9032-BB4B-639C-71760662ABC4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>99DF4E90-2D97-D7E0-119A-E2D137D24178</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ORDEN_ATENCION" id="8B9D6442-03C2-DC1D-13A0-64ADDFA4E504">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:36:04 UTC</createdTime>
+<generatorID>B6641644-0255-88B1-ECC0-BFE604ECD0AA</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>9774193D-A9AD-3F55-6C44-5B042E1F1CD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7B1C110-93CA-2510-2D10-060B44CF0AB2" name="ESTADO_VEHICULO PK">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:14:31 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67FB6EA6-5B5F-A1AA-E517-5EE51FE8B72E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBA9B56B-8497-EE5F-604B-E0ADCCC86CAA" name="ESTADO_VEHICULO">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>FBE9C8B5-B37A-A40E-8904-4E8D8CFDBCA6</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO_VEHICULO" id="A9A47276-4BF8-3DBD-7CE9-E37A312246C7">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>67FB6EA6-5B5F-A1AA-E517-5EE51FE8B72E</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="38B6D220-B202-413F-28A4-7A0F5DF395A3">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>A7AF198B-F686-C61C-4CD9-2A10BFB8A320</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="8F056D82-5911-9B83-C72D-05A4368E7F59">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>B485781E-DD2C-960D-2EE4-AB48B8A296E4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUIMIENTO_ID_SEGUIMIENTO" id="40D3FA28-971B-F896-DA20-B16F9EB92446">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>57417970-19EE-E204-D512-A523F0D43CC2</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92932B29-6C10-29C9-2985-C379EC45D267" referredColumn="B9A696EB-B852-16FB-FB13-1A8D33BD039A"/>
+</associations>
+</Column>
+<Column name="ORDEN_ATENCION_ID_ORDEN_ATENCION" id="03921829-F0A9-8035-778E-72E46B7D007F">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>8B9D6442-03C2-DC1D-13A0-64ADDFA4E504</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AB8FDE2-F363-0EAC-C2BC-13EF651725F4" referredColumn="18694DF4-4A7B-E519-A8C5-79DDFFBB337A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C0AE7CC-6CFD-5042-9067-DA1BFCC44128" name="ESTADO_VEHICULO_PK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>F7B1C110-93CA-2510-2D10-060B44CF0AB2</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9A47276-4BF8-3DBD-7CE9-E37A312246C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80AC12D4-6A8A-E64A-19A6-895453497515" name="ESTADO_VEHICULO__IDX">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9B4EFD54-9032-BB4B-639C-71760662ABC4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="40D3FA28-971B-F896-DA20-B16F9EB92446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1241FDA1-3EB9-C9DA-8616-1B41512DFBC5" name="ESTADO_VEHICULO__IDXv1">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B6641644-0255-88B1-ECC0-BFE604ECD0AA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="03921829-F0A9-8035-778E-72E46B7D007F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A16DD192-353B-4508-0734-3A6D64BD7CC0" name="ESTADO_VEHICULO_SEGUIMIENTO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>9B4EFD54-9032-BB4B-639C-71760662ABC4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40D3FA28-971B-F896-DA20-B16F9EB92446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB37AB1E-D65F-0D17-F389-A02DA1F4489F" name="ESTADO_VEHICULO_ORDEN_ATENCION_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>B6641644-0255-88B1-ECC0-BFE604ECD0AA</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03921829-F0A9-8035-778E-72E46B7D007F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="798A173B-7E34-B477-BC09-941CB7870154" name="MODELO_VEHICULO">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>041FA0FB-5F38-1DE5-9F61-68C4DE239772</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MODELO" id="4F329C25-D75B-CE7C-2DB3-66161DC4F8C4">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>477C2393-35C3-4E91-66BF-4B4A70949CE1</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="BD2247C9-C1BE-F5BE-DAFD-C0F5BA586E97">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>014489D7-BAA3-B1EB-59B4-19A43CD2FB57</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="835D1E4A-6C3C-A95D-F76F-6D29F2361009" name="MODELO_VEHICULO PK">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>F765D9B4-1F88-2553-5E04-E5AFD8B1000B</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F329C25-D75B-CE7C-2DB3-66161DC4F8C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

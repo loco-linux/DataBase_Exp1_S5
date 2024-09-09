@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="54B803D1-318B-A01E-C924-A2EB5ED2575E">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:19:22 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<sourcePk>B514C042-6AE0-51CE-65E7-B088A7D6525D</sourcePk>
+<targetPk>0F4A02BE-32D5-C5B7-477F-10112582DEEB</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>024A7492-7AB0-1BFB-FB66-8D00A169BBE0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>91490E91-24B7-AFB4-67B3-C1550EFF5E29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

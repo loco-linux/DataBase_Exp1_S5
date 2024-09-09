@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91490E91-24B7-AFB4-67B3-C1550EFF5E29" name="VALIDACION_SERVICIO">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:16:18 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VALIDACION_SERVICIO" id="D34375DE-D814-A331-5C74-9CB6CB524737">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:16:26 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_VALIDACION" id="864DADF9-0131-8743-C28A-D3AC17686AF4">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:16:45 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APROBADO" id="ED56A3E8-845E-ECED-AACA-EF590338A177">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:16:56 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ORDEN_ATENCION" id="D03848BD-0A25-6C6F-1440-39E26DFC481A">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:19:22 UTC</createdTime>
+<generatorID>54B803D1-318B-A01E-C924-A2EB5ED2575E</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>9774193D-A9AD-3F55-6C44-5B042E1F1CD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F4A02BE-32D5-C5B7-477F-10112582DEEB" name="VALIDACION_SERVICIO PK">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 23:16:27 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D34375DE-D814-A331-5C74-9CB6CB524737</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

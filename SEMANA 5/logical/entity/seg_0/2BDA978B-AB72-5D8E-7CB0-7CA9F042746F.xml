@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BDA978B-AB72-5D8E-7CB0-7CA9F042746F" name="CONTACTO_CLIENTE">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>FD8D252C-A302-662D-2D04-9DF36262805C</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONTACTO" id="E362076D-3DEA-5793-391F-78C8D513EA13">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>6B38F670-5A1D-CAC3-A661-18BA1D9887C6</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CELULAR" id="62ED0958-17CF-4604-AF74-541E1A267CA4">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>61B8232B-4EED-6025-250D-A67FFFE73934</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="5630692F-F871-E0E1-9D1B-B406F7220A40">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>2B8D5A36-E5C0-336C-B3C3-BA5980D90A35</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_CLIENTE" id="0FA57384-E786-FA98-013D-02969C4F4E39">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<generatorID>478F9EA1-ED74-4649-9AA5-CB9ED0F4AC06</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>C7205C96-C2BB-8ACD-F38D-D47BE238E91B</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>F7993294-8C5A-C875-4BE0-FD2A87C19525</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="995E2BCA-DBFD-9174-F0BD-06BD6FBBF8FD" name="CONTACTO_CLIENTE PK">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>CB217E5D-97C5-9583-3596-87CC4CAC7804</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E362076D-3DEA-5793-391F-78C8D513EA13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

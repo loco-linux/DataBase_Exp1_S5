@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED37238A-AEF2-524F-DB02-C77CB8D04B7E" name="VALIDACION_SERVICIO">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>91490E91-24B7-AFB4-67B3-C1550EFF5E29</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VALIDACION_SERVICIO" id="49D24876-08D9-D2B8-AF99-AAFEED4F6F27">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>D34375DE-D814-A331-5C74-9CB6CB524737</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VALIDACION" id="4A2F0E69-6567-EC9E-3C2A-1D3BBB753C6F">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>864DADF9-0131-8743-C28A-D3AC17686AF4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APROBADO" id="0CCF0346-E7E9-1D75-C109-F4A920A4EE4D">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>ED56A3E8-845E-ECED-AACA-EF590338A177</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN_ATENCION_ID_ORDEN_ATENCION" id="B66BCA47-DEF4-E6AB-B272-EAC48C846D8B">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>D03848BD-0A25-6C6F-1440-39E26DFC481A</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85AB023C-6E82-E58D-186B-13FD1E1272A4" referredColumn="18694DF4-4A7B-E519-A8C5-79DDFFBB337A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADDEE2E8-FC41-4062-CB6B-E67EA2C88986" name="VALIDACION_SERVICIO_PK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>0F4A02BE-32D5-C5B7-477F-10112582DEEB</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49D24876-08D9-D2B8-AF99-AAFEED4F6F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="185E4E0B-AFEF-9F93-76B6-C93AC39065A1" name="VALIDACION_SERVICIO__IDX">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>54B803D1-318B-A01E-C924-A2EB5ED2575E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B66BCA47-DEF4-E6AB-B272-EAC48C846D8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA4C349C-2A70-2FDD-8C58-0037C0B4605E" name="VALIDACION_SERVICIO_ORDEN_ATENCION_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>54B803D1-318B-A01E-C924-A2EB5ED2575E</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B66BCA47-DEF4-E6AB-B272-EAC48C846D8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

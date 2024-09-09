@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CB8A065-8E82-1EE3-2267-91A39CDAD0F6" name="VEHICULO">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>E77D32C5-3611-E6D5-C701-6702DD671D40</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<subtypesRefType>None</subtypesRefType>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PATENTE" id="260D312F-A69F-FF2C-F0C4-C617B13A41EC">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>5B5D6AB9-1F79-C24C-A0A3-104EDA92D462</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_CLIENTE" id="C3B17297-2FE8-16F5-F30A-C16306C7ACFA">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<generatorID>F1118585-FEF2-6AA8-12BF-BB286BCEC953</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>7087B304-5BC5-69C3-EF18-D9D3321B78C4</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>F7993294-8C5A-C875-4BE0-FD2A87C19525</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MODELO" id="5733CFE1-EE1F-F5A1-6DAB-D91344375B45">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-02 01:52:19 UTC</createdTime>
+<generatorID>D77886AB-0931-DE6A-59DF-08620BA04ACB</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>4F329C25-D75B-CE7C-2DB3-66161DC4F8C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MARCA" id="C1F98894-A937-5677-809B-1542A3228F34">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-02 01:52:27 UTC</createdTime>
+<generatorID>32A3E5AC-0E5F-115F-2220-7C6107AE81B5</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>DF8DF0E1-32DC-0440-9C4F-7113B261015A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_COLOR" id="8ECD36BD-3BFF-241A-8B56-7065B494DD08">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-02 01:52:38 UTC</createdTime>
+<generatorID>C73FA435-0A56-5CA7-F3DE-05BC972A4377</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>3FAE0167-00FA-16A9-0486-8711F2E6EAF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AÑO" id="748FDF60-7DDD-AF8C-F6B8-6E0569E3DCBF">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-02 01:52:46 UTC</createdTime>
+<generatorID>FD10CB29-EA5E-55D8-BBB0-34CBF32B36D4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<referedAttribute>7BF7119A-47C2-DC63-8864-23DD52E3CE35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAF94444-FAFC-3191-AB6E-F4AA6BC94479" name="VEHICULO PK">
+<createdBy>jbarr</createdBy>
+<createdTime>2024-09-01 22:45:04 UTC</createdTime>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<importedID>0038652C-B621-D741-0D27-93D8FCDCB54B</importedID>
+<engineerTo>
+<item key="8E029830-9B4D-F2DA-A414-7F04035C21CE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>260D312F-A69F-FF2C-F0C4-C617B13A41EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

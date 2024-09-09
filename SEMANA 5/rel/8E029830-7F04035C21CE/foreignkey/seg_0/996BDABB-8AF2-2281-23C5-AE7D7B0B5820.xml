@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="996BDABB-8AF2-2281-23C5-AE7D7B0B5820" containerWithKeyObject="021EA497-48F6-0858-77EA-6440B8C78763" localFKIndex="2E6DF158-3DA8-D622-5A78-B045ADD88DDB" name="ORDEN_ATENCION_VEHICULO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>91335E5F-99E6-C359-36AF-BEEED34BD33C</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<referredTableLongName>VEHICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8468E95-390F-80EE-44D2-593F8DA417BE</referredTableID>
+<keyObject>9730DD0C-A5A3-E58E-1582-89CFA3E1BC6B</keyObject>
+<referredKeyID>9730DD0C-A5A3-E58E-1582-89CFA3E1BC6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PATENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

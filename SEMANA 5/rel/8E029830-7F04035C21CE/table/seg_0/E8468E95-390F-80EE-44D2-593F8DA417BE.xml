@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8468E95-390F-80EE-44D2-593F8DA417BE" name="VEHICULO">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>3CB8A065-8E82-1EE3-2267-91A39CDAD0F6</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PATENTE" id="8E43F031-F1EC-A109-6DF1-17D31C35E389">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>260D312F-A69F-FF2C-F0C4-C617B13A41EC</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_RUT_CLIENTE" id="097CD44D-59FF-D087-86A7-D15B6220F616">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>C3B17297-2FE8-16F5-F30A-C16306C7ACFA</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="100BE12A-F3AD-1A8B-6F96-BE445DB9ADD7" referredColumn="4402157B-B959-8E72-2C68-609CB5F83E2F"/>
+</associations>
+</Column>
+<Column name="MODELO_VEHICULO_ID_MODELO" id="63983F4D-06F0-4CFC-3854-B3C32E11BC7E">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>5733CFE1-EE1F-F5A1-6DAB-D91344375B45</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5C0CFD4-AB03-8CF6-B8AE-135B33D53A2E" referredColumn="97C55A7F-B90D-BE01-FC2A-A2AB47052441"/>
+</associations>
+</Column>
+<Column name="MARCA_VEHICULO_ID_MARCA" id="24EEB596-C844-9266-808C-11ACA5750CD9">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>C1F98894-A937-5677-809B-1542A3228F34</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F869E69A-B369-EC9F-9EF9-5C418A0E483E" referredColumn="ACDC7DD3-F808-936A-77C0-9EF8AAB1F677"/>
+</associations>
+</Column>
+<Column name="COLOR_VEHICULO_ID_COLOR" id="3DD1063C-B195-6C4A-D4F1-4422F5A23402">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>8ECD36BD-3BFF-241A-8B56-7065B494DD08</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D66D780-E3A3-D9D0-C8A2-554B1C6B2994" referredColumn="DBB0E431-7B8F-A790-19DB-0BF37276F8B1"/>
+</associations>
+</Column>
+<Column name="AÑO_VEHICULO_ID_AÑO" id="921335EF-4D02-30C0-31EB-9C8C90AC521C">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>748FDF60-7DDD-AF8C-F6B8-6E0569E3DCBF</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="043B7DFE-5511-A677-8FD5-2A01593BC60C" referredColumn="BF14EC8A-AC65-2204-1B83-9AE2ACB9DB5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9730DD0C-A5A3-E58E-1582-89CFA3E1BC6B" name="VEHICULO_PK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>FAF94444-FAFC-3191-AB6E-F4AA6BC94479</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E43F031-F1EC-A109-6DF1-17D31C35E389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D914752D-FC6D-9FE7-0FB8-727D4B1C4B7C" name="VEHICULO_CLIENTE_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>F1118585-FEF2-6AA8-12BF-BB286BCEC953</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="097CD44D-59FF-D087-86A7-D15B6220F616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13C37517-2B11-F1C1-F56A-90262501DA50" name="VEHICULO_COLOR_VEHICULO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>C73FA435-0A56-5CA7-F3DE-05BC972A4377</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD1063C-B195-6C4A-D4F1-4422F5A23402"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B790105E-1A15-54D6-8209-D9AC92A07CB5" name="VEHICULO_MARCA_VEHICULO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>32A3E5AC-0E5F-115F-2220-7C6107AE81B5</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24EEB596-C844-9266-808C-11ACA5750CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E81FC1C0-797A-5F3B-BFB9-EB9B635D7B16" name="VEHICULO_MODELO_VEHICULO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>D77886AB-0931-DE6A-59DF-08620BA04ACB</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63983F4D-06F0-4CFC-3854-B3C32E11BC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="791D10B3-77B8-1AAB-6304-76617C1DD77C" name="VEHICULO_AÑO_VEHICULO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>FD10CB29-EA5E-55D8-BBB0-34CBF32B36D4</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="921335EF-4D02-30C0-31EB-9C8C90AC521C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C5301B2-FB1A-95DA-DFD6-1176AA768AC7" containerWithKeyObject="021EA497-48F6-0858-77EA-6440B8C78763" localFKIndex="A3E2E82C-C53E-37D3-5FD6-110E7F3CB5F4" name="ORDEN_ATENCION_ESTADO_VEHICULO_FK">
+<createdBy>ProBook</createdBy>
+<createdTime>2024-09-08 01:19:45 UTC</createdTime>
+<generatorID>B6641644-0255-88B1-ECC0-BFE604ECD0AA</generatorID>
+<ownerDesignName>SEMANA 5</ownerDesignName>
+<referredTableLongName>ESTADO_VEHICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBA9B56B-8497-EE5F-604B-E0ADCCC86CAA</referredTableID>
+<keyObject>4C0AE7CC-6CFD-5042-9067-DA1BFCC44128</keyObject>
+<referredKeyID>4C0AE7CC-6CFD-5042-9067-DA1BFCC44128</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO_VEHICULO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
